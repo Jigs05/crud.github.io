@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="center">
-                <h2 class="card-header"> Registered Account </h2>
+                <h2 class="card-header"> User List </h2>
             </div>
             <br>
            

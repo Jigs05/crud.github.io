@@ -9,12 +9,12 @@
             <br>
            
             <br>
-            <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('signout') }}"> Logout</a>
+            <div class="pull-right Logout">
+                <a class="btn btn-success Logout" href="{{ route('signout') }}"> Logout</a>
             </div>
 
-            <div class="pull-left">
-                <a class="btn btn-success" href="{{ route('products.create') }}"> Create Account</a>
+            <div class="pull-left Create_Account">
+                <a class="btn btn-success Logout" href="{{ route('products.create') }}"> Create Account</a>
             </div>
 
         </div>
@@ -33,6 +33,7 @@
             <th>LastName:</th>
             <th>Email:</th>
             <th>Phone #:</th>
+            <th>Address:</th>
             <th width="280px">Action:</th>
         </tr>
         @foreach ($products as $product)
@@ -42,6 +43,7 @@
             <td>{{ $product->lastname }}</td>
             <td>{{ $product->email }}</td>
             <td>{{ $product->number }}</td>
+            <td>{{ $product->address }}</td>
             <td>
                 <form action="{{ route('products.destroy',$product->id) }}" method="POST">
    

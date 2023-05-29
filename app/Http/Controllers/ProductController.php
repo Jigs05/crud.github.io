@@ -43,6 +43,7 @@ class ProductController extends Controller
             'lastname' => 'required',
             'email' => 'required',
             'number' => 'required',
+            'address' => 'required',
         ]);
     
         Product::create($request->all());
@@ -87,6 +88,7 @@ class ProductController extends Controller
             'lastname' => 'required',
             'email' => 'required',
             'number' => 'required',
+            'address' => 'required',
         ]);
     
         $product->update($request->all());

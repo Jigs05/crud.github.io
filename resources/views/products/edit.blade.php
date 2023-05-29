@@ -31,28 +31,35 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>FirstName:</strong>
-                    <input type="text" name="name" class="form-control" placeholder="{{ $product->name }}">
+                    <input type="text" name="name" class="form-control" value="{{ $product->name }}">
                 </div>
             </div>
     
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>LastName:</strong>
-                    <input type="text" name="lastname"  class="form-control" placeholder="{{ $product->lastname }}">
+                    <input type="text" name="lastname"  class="form-control" value="{{ $product->lastname }}">
                 </div>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Email:</strong>
-                    <input type="text" name="email"  class="form-control" placeholder="{{ $product->email }}">
+                    <input type="text" name="email"  class="form-control" value="{{ $product->email }}">
                 </div>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Phone #:</strong>
-                    <input type="number" name="number"  class="form-control" placeholder="{{ $product->number }}">
+                    <input type="number" name="number"  class="form-control" value="{{ $product->number }}">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Address:</strong>
+                    <input type="text" name="address"  class="form-control" value="{{ $product->address }}">
                 </div>
             </div>
 

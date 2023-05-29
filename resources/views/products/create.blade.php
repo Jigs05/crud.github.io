@@ -55,6 +55,13 @@
             </div>
         </div>
 
+        <div class="col-xs-12 cosl-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Address:</strong>
+                <input type="text" name="address"  class="form-control" placeholder="Please Enter Your Address">
+            </div>
+        </div>
+
 
 
 

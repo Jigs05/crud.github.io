@@ -39,7 +39,7 @@
         <tr>
             <td>{{ $loop->iteration }}</td>
             <td>{{ $product->name }}</td>
-            <td>{{ $product->detail }}</td>
+            <td>{{ $product->lastname }}</td>
             <td>{{ $product->email }}</td>
             <td>{{ $product->number }}</td>
             <td>

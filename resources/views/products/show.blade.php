@@ -15,28 +15,28 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>FirstName:</strong>
+                <strong>FirstName: </strong>
                 {{ $product->name }}
             </div>
         </div>
         
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>LastName:</strong>
-                {{ $product->detail }}
+                <strong>LastName: </strong>
+                {{ $product->lastname }}
             </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Email:</strong>
+                <strong>Email: </strong>
                 {{ $product->email }}
             </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Phone #:</strong>
+                <strong>Phone #: </strong>
                 {{ $product->number }}
             </div>
 

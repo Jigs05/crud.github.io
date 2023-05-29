@@ -38,7 +38,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>LastName:</strong>
-                    <input type="text" name="detail"  class="form-control" placeholder="{{ $product->detail }}">
+                    <input type="text" name="lastname"  class="form-control" placeholder="{{ $product->lastname }}">
                 </div>
             </div>
 
